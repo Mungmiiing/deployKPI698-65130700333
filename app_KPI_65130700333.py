@@ -1,9 +1,12 @@
-
 import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+from xgboost import XGBClassifier
+from sklearn.preprocessing import LabelEncoder\
 import pickle
 
 # Load model and encoders
